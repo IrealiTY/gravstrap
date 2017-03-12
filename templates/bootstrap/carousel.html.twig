@@ -15,7 +15,7 @@
             } %}
         {% endif %}
         <div class="carousel-item{% if loop.first %} active{% endif %}">
-            {{ grav.page.find('/images').media.images[values.image] }} 
+            {{ grav.page.find(images_path).media.images[values.image] }}
             <div class="carousel-caption d-none d-md-block">{{ values.caption }}</div>
         </div>
         {% endfor %}
