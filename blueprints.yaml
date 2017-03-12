@@ -3,11 +3,12 @@ version: 1.0.0
 description: "Gravstrap is a Grav plugin that provides Bootstrap components as shortcodes. All credit goes to Giansimon Diblas"
 icon: share-alt
 author:
-  name: Aleksander Danilov
-  email: me@aleksdanilov.com
-  url: http://aleksdanilov.com
+  name: Giansimon Diblas
+  email: info@diblas.net
+  url: http://diblas.net
+homepage: https://github.com/giansi/gravstrap
 demo: http://gravstrap.diblas.net/
-keywords: bootstrap 4
+keywords: bootstrap, theme
 bugs: https://github.com/giansi/gravstrap/issues
 license: MIT
 
