@@ -21,11 +21,11 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 
 /**
- * Class AlertShortcode handles a bootstrap alert component
+ * Class GravstrapAlertShortcode handles a bootstrap alert component
  *
  * @author Giansimon Diblas
  */
-class AlertShortcode extends GravstrapShortcode
+class GravstrapAlertShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

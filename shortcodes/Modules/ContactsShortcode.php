@@ -24,7 +24,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class ContactsShortcode extends GravstrapShortcode
+class GravstrapContactsShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

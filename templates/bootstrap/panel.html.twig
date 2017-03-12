@@ -1,11 +1,11 @@
-<div class="panel panel-{{ type|default('default') }}">
+<div class="card card-{{ type|default('default') }}">
   {% if heading_title is not null %}
-  <div class="panel-heading">{{ heading_title }}</div>
+  <div class="card-header">{{ heading_title }}</div>
   {% endif %}
-  <div class="panel-body">
+  <div class="card-block">
       {{ content }}
   </div>
   {% if footer_title is not null %}
-  <div class="panel-footer">{{ footer_title }}</div>
+  <div class="card-footer">{{ footer_title }}</div>
   {% endif %}
 </div>

@@ -5,6 +5,7 @@
  * intact this copyright notice.
  *
  * Copyright (c) Giansimon Diblas <info@diblas.net>
+ * Modified by Aleksander Danilov <me@aleksdanilov.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.

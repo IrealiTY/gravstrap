@@ -24,7 +24,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class PanelShortcode extends GravstrapShortcode
+class GravstrapPanelShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

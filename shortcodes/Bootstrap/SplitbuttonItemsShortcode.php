@@ -25,7 +25,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class SplitbuttonItemsShortcode extends GravstrapShortcode
+class GravstrapSplitbuttonItemsShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

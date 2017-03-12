@@ -24,7 +24,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class IconStackedShortcode extends GravstrapShortcode
+class GravstrapIconStackedShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

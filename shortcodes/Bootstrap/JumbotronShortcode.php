@@ -25,7 +25,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class JumbotronShortcode extends GravstrapShortcode
+class GravstrapJumbotronShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

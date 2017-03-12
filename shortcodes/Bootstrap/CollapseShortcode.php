@@ -25,7 +25,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class CollapseShortcode extends GravstrapShortcode
+class GravstrapCollapseShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

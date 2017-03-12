@@ -20,11 +20,11 @@ namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 /**
- * Class IconShortcode handles an icon element
+ * Class GravstrapIconShortcode handles an icon element
  *
  * @author Giansimon Diblas
  */
-class IconShortcode extends GravstrapShortcode
+class GravstrapIconShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

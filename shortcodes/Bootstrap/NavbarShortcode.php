@@ -25,7 +25,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class NavbarShortcode extends GravstrapShortcode
+class GravstrapNavbarShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

@@ -10,9 +10,13 @@
                   'content': item.content|trim
                 } %} 
             {% endif %}
-            <div {% include 'partials/_attributes.html.twig' with {'attributes': values.attributes} %}>    
-                <div class="item-text">
-                    {{ values.content }}
+            <div class="card">
+                <div {% include 'partials/_attributes.html.twig' with {'attributes': values.attributes} %}>
+                  <div class="card-block">
+                        <p class="card-text">
+                            {{ values.content }}
+                        </p>
+                    </div>
                 </div>
             </div>
         {% endfor %}

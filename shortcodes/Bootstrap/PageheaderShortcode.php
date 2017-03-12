@@ -19,13 +19,12 @@ namespace Grav\Plugin\Shortcodes;
 
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
-
 /**
  * Class PageHeaderShortcode handles a bootstrap pageheader component
  *
  * @author Giansimon Diblas
  */
-class PageheaderShortcode extends GravstrapShortcode
+class GravstrapPageheaderShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

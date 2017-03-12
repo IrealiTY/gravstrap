@@ -14,19 +14,19 @@
               'caption': item.content|trim,
             } %}
         {% endif %}
-        <div class="item{% if loop.first %} active{% endif %}">
+        <div class="carousel-item{% if loop.first %} active{% endif %}">
             {{ grav.page.find('/images').media.images[values.image] }} 
-            <div class="carousel-caption">{{ values.caption }}</div>
+            <div class="carousel-caption d-none d-md-block">{{ values.caption }}</div>
         </div>
         {% endfor %}
     </div>
 
-    <a class="left carousel-control" href="#{{ id }}" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <a class="carousel-control-prev" href="#{{ id }}" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">{{ previous_label }}</span>
     </a>
-    <a class="right carousel-control" href="#{{ id }}" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <a class="carousel-control-next" href="#{{ id }}" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">{{ next_label }}</span>
     </a>
 </div>

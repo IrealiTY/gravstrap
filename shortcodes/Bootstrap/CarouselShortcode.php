@@ -25,7 +25,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class CarouselShortcode extends GravstrapShortcode
+class GravstrapCarouselShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

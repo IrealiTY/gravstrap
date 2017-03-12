@@ -10,15 +10,16 @@
                   'attributes': parse_attributes(item.getParameter('attributes')),
                 } %}
             {% endif %}
-
+        <div class="card">
             <div {% include 'partials/_attributes.html.twig' with { 'attributes': values.attributes } %}>
-                <div class="item-image">
-                    {{ grav.page.find('/images').media.images[values.image].cropZoom(150, 150) }}
-                </div>
+                    {{ grav.page.find('/images').media.images[values.image].cropZoom(150, 150).html('', '', 'card-img-top rounded-circle') }}
                 {% if content != "" %}
-                <div class="item-text">{{ values.content }}</div>
+                      <div class="card-block">
+                        <p class="card-text">{{ values.content }}</p>
+                      </div>
                 {% endif %}
             </div>
+         </div>       
         {% endfor %}
         </div>
     {% endblock %}

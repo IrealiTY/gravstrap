@@ -31,7 +31,7 @@ use Gregwar\Image\Image;
  *
  * @author Giansimon Diblas
  */
-class ImagesCollageShortcode extends GravstrapShortcode
+class GravstrapImagesCollageShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

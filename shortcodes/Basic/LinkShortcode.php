@@ -20,11 +20,11 @@ namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 /**
- * Class LinkShortcode handles a link element
+ * Class GravstrapLinkShortcode handles a link element
  *
  * @author Giansimon Diblas
  */
-class LinkShortcode extends GravstrapShortcode
+class GravstrapLinkShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

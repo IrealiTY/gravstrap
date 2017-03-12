@@ -24,7 +24,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class WellShortcode extends GravstrapShortcode
+class GravstrapWellShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}
@@ -59,11 +59,17 @@ class WellShortcode extends GravstrapShortcode
     {
         $wellSize = $shortcode->getParameter('size');
         switch($wellSize) {
-            case 'small':
-                $wellSize = 'sm';
+            case '25':
+                $wellSize = '25';
                 break;
-            case 'large':
-                $wellSize = 'lg';
+            case '50':
+                $wellSize = '50';
+                break;
+            case '75':
+                $wellSize = '75';
+                break;
+            case '100':
+                $wellSize = '100';
                 break;
         }
         

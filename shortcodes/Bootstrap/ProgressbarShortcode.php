@@ -24,7 +24,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class ProgressbarShortcode extends GravstrapShortcode
+class GravstrapProgressbarShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

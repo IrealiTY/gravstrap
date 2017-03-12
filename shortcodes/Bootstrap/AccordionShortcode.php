@@ -20,11 +20,11 @@ namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 /**
- * Class AccordionShortcode handles a bootstrap accordion component
+ * Class GravstrapAccordionShortcode handles a bootstrap accordion component
  *
  * @author Giansimon Diblas
  */
-class AccordionShortcode extends GravstrapShortcode
+class GravstrapAccordionShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

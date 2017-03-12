@@ -25,7 +25,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Giansimon Diblas
  */
-class DropdownItemsShortcode extends GravstrapShortcode
+class GravstrapDropdownItemsShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}

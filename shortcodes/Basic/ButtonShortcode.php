@@ -20,11 +20,11 @@ namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 /**
- * Class ButtonShortcode handles a bootstrap button component
+ * Class GravstrapButtonShortcode handles a bootstrap button component
  *
  * @author Giansimon Diblas
  */
-class ButtonShortcode extends GravstrapShortcode
+class GravstrapButtonShortcode extends GravstrapShortcode
 {    
     /**
      * {@inheritdoc}

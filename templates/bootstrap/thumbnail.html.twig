@@ -10,18 +10,22 @@
             } %}
         {% endif %}
 
-        <div class="{{ values.class|default('col-md-4') }}">
+<div class="card">
+        <div class="{{ values.class|default('col-xl-4') }}">
             {% set linked = values.url is not null %}
             {% set tag = linked ? 'a href="' ~ values.url ~ '"' : 'div' %}
             {% set close_tag = linked ? 'a' : 'div' %}
-            <{{ tag }} class="thumbnail">
+            <{{ tag }} class="card-img-top">
             {{ grav.page.find('/images').media.images[values.image] }} 
             {% if linked == false %}
-            <div class="caption">
-                {{ values.content }}
-            </div>
+              <div class="card-block">
+                    <p class="card-text">
+                    {{ values.content }}
+                    </p>
+                </div>
             {% endif %}
             </{{ close_tag }}>
         </div>
+</div>
     {% endfor %}
 </div>

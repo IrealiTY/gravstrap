@@ -21,11 +21,11 @@ namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 /**
- * Class SectionExtendedShortcode handles a Shortcore section section extended with attributes
+ * Class GravstrapSectionExtendedShortcode handles a Shortcore section section extended with attributes
  *
  * @author Giansimon Diblas
  */
-class SectionExtendedShortcode extends GravstrapShortcode
+class GravstrapSectionExtendedShortcode extends GravstrapShortcode
 {
     /**
      * {@inheritdoc}
